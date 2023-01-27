@@ -1,0 +1,64 @@
+const Sentence1 = `ComprenNSIVe UP-to-DATE news,aggRegateD FrOM souRCes alL OVeR tHE WORLD by GOOgle News.`;
+
+console.log(`\nsentence1 -> ${Sentence1}`);
+let sentencereplaceallAwithQueenAndKing = Sentence1.replace(/A/ig, `queen and king`);
+console.log(`sentence1 after replace -> ${sentencereplaceallAwithQueenAndKing}`);
+
+
+
+
+
+
+
+const sentence2 = `ComprenNSIVe UP-to-DATE news,aggRegateD FrOM souRCes alL OVeR tHE WORLD by GOOgle News.`;
+console.log(`\nsentence2->${sentence2}`);
+
+let sentence2uppercase = sentence2.toUpperCase();
+console.log(`sentenceuppercase->${sentence2uppercase}`);
+
+let sentence2startwithcom = sentence2uppercase.startsWith(`COM`);
+console.log(`sententce2startwithCOM-> ${sentence2startwithcom}`);
+console.log(`sentenceuppercase->${sentence2uppercase}`);
+
+
+
+
+
+
+const sentence3 = `ComprenNSIVe UP-to-DATE news,aggRegateD FrOM souRCes alL OVeR tHE WORLD by GOOgle News.`;
+console.log(`\nsentence3->${sentence3}`);
+
+let sentence3LOWERcase = sentence3.toLowerCase();  
+console.log(`sentence3Lowercase->${sentence3LOWERcase}`);
+
+let sentence3ENDSwithGOOGLENEWS = sentence3LOWERcase.endsWith(`GOOGLE NEWS`);
+console.log(`sententce3ENDSwithGOOGLENEWS-> ${sentence3ENDSwithGOOGLENEWS}`);
+
+
+
+
+
+
+const sentence4 = `ComprenNSIVe UP-to-DATE news,aggRegateD FrOM souRCes alL OVeR tHE WORLD by GOOgle News.`;
+console.log(`\nsentence4->${sentence4}`);
+
+let sentence4length = sentence4.length;
+console.log(`sentence4length->${sentence4length}`);
+
+
+
+
+
+const sentence6 = `ComprenNSIVe UP-to-DATE news,aggRegateD FrOM souRCes alL OVeR tHE WORLD by GOOgle News.`;
+console.log(`\nsentence6->${sentence6}`);
+
+let sentence6length = sentence6.length;
+console.log(`sentence6length->${sentence6length}`);
+
+let secondlastindex = sentence6length-2
+console.log(`secondlastindex->${secondlastindex}`);
+
+
+
+
+
