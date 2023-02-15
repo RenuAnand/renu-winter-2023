@@ -19,7 +19,7 @@ console.log('\nQ3');
 const arr3 = ['FOOTBALL', 'rUGBy', 'bASEball', 'sOCcEr', 'BaskETBall', 'bAsEbAlL', 'mARAthon'];
 let arr3Result = 5;
 
-if(arr3[4].toLowerCase().localeCompare('baseball' >= 2) === false ) {
+if(arr3[5].toLowerCase().localeCompare('baseball' >= 2) === false ) {
     console.log('-1');
 }
 else {
